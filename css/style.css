@@ -6,6 +6,7 @@
 body {
     font-family: 'OpenSans', sans-serif;
     position: relative;
+    background-color:  rgb(17, 121, 0)
 }
 
 a {
@@ -165,7 +166,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #FFFFFF;
+    background-color: rgb(17, 121, 0) 0%
 }
 
 
@@ -268,23 +269,23 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgb(87, 179, 72) 0%, rgb(17, 121, 0) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgb(87, 179, 72) 0%, rgb(17, 121, 0) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgb(87, 179, 72) 0%, rgb(17, 121, 0) 100%);
-    background-image: linear-gradient( 135deg, rgb(87, 179, 72) 0%, rgb(17, 121, 0) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgb(17, 121, 0) 0%, rgb(17, 121, 0) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgb(17, 121, 0) 0%, rgb(17, 121, 0) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgb(17, 121, 0) 0%, rgb(17, 121, 0) 100%);
+    background-image: linear-gradient( 135deg, rgb(17, 121, 0) 0%, rgb(17, 121, 0) 100%);
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #FFFFFF;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .img-holder {
     height: 0;
-    padding-bottom: 33%;
+    padding-bottom: 0%;
     overflow: hidden;
 }
 
@@ -625,7 +626,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #ffffff;
     max-width: 650px;
     margin: 0 auto;
 }
