@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    font-family: 'OpenSans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     position: relative;
 }
 
@@ -59,41 +59,6 @@ pre {
 	line-height: 18.5714px;
 }
 
- h1m {
-    font-size: 60px;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 1.5rem;
-    color: #CD4F00
-}
-
-h2m {
-    font-family: "Montserrat";
-    font-size: 45px;
-    font-weight: 300;
-    color: #633991;
-    letter-spacing: -1px;
-    margin-bottom: 1rem;
-}
-
-h3m {
-    color: #CD4F00;
-    font-size: 33px;
-    font-weight: 500;
-}
-
-h4m {
-    font-size: 20px;
-    font-weight: 500;
-    color: #CD4F00;
-}
-
-h5m {
-    font-size: 28px;
-    font-weight: 300;
-    color: #CD4F00;
-    margin-bottom: 0.7rem;
-}
 
 p.lead {
     color: #e38cb7;
