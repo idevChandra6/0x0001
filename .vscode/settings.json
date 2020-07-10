@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": null,
+    "workbench.colorCustomizations": {
+        "editorLineNumber.activeForeground":"#CC0000",
+        "tab.activeBackground":"#0076FF",
+        "tab.activeForeground": "#FFFFFF"
+    }
+}
