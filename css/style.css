@@ -4,29 +4,75 @@
 ----------------------*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     position: relative;
     background-color:  rgb(17, 121, 0)
 }
 
 a {
-    color: rgb(17, 121, 0) 0%
-}f
+    color: #CD4F00;
+}
 
 a:hover,
 a:focus {
-    color: #57B348;
+    color: #CD4F00;
 }
 
 h1 {
+	font-family: "Open Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15.4px;
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+blockquote {
+	font-family: "Open Sans";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+pre {
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+ h1m {
     font-size: 60px;
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
-    color: #57B348
+    color: #CD4F00
 }
 
-h2 {
+h2m {
+    font-family: "Montserrat";
     font-size: 45px;
     font-weight: 300;
     color: #633991;
@@ -34,27 +80,23 @@ h2 {
     margin-bottom: 1rem;
 }
 
-h3 {
-    color: #57B348;
+h3m {
+    color: #CD4F00;
     font-size: 33px;
     font-weight: 500;
 }
 
-h4 {
+h4m {
     font-size: 20px;
     font-weight: 500;
-    color: #57B348;
+    color: #CD4F00;
 }
 
-h5 {
+h5m {
     font-size: 28px;
     font-weight: 300;
-    color: #57B348;
+    color: #CD4F00;
     margin-bottom: 0.7rem;
-}
-
-p {
-    color: #959094;
 }
 
 p.lead {
@@ -84,10 +126,10 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #57B348 0%, #57B348 100%);
-    background-image: -webkit-linear-gradient( 122deg, #57B348 0%, #57B348 100%);
-    background-image: -ms-linear-gradient( 122deg, #57B348 0%, #57B348 100%);
-    background-image: linear-gradient( 122deg, #57B348 0%, #57B348 100%);
+    background-image: -moz-linear-gradient( 122deg, #CD4F00 0%, #CD4F00 100%);
+    background-image: -webkit-linear-gradient( 122deg, #CD4F00 0%, #CD4F00 100%);
+    background-image: -ms-linear-gradient( 122deg, #CD4F00 0%, #CD4F00 100%);
+    background-image: linear-gradient( 122deg, #CD4F00 0%, #CD4F00 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -197,7 +239,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #57B348;
+        border-bottom: 2px solid #CD4F00;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -212,7 +254,7 @@ p.lead {
     }
     .navbar-nav .nav-item {
         text-align: center;
-        color: #57B348
+        color: #CD4F00
     }
 }
 
