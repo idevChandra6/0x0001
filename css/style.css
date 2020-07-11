@@ -41,6 +41,15 @@ p {
 	line-height: 20px;
 }
 
+footertext {
+	font-family: "Open Sans";
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
 blockquote {
 	font-family: "Open Sans";
 	font-size: 21px;
